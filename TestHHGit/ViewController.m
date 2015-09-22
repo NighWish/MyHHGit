@@ -27,6 +27,8 @@
     button.frame = CGRectMake(100, 100, 80, 44);
     button.backgroundColor = [UIColor greenColor];
     [self.view addSubview:button];
+    
+    [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
