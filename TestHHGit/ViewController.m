@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor greenColor];
     self.view.layer.cornerRadius = 5.0f;
+    self.view.layer.borderColor = [UIColor orangeColor].CGColor;
+    self.view.layer.borderWidth = 2.0f;
+    
 }
 
 - (void)didReceiveMemoryWarning {
