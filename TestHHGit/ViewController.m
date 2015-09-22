@@ -21,7 +21,7 @@
     self.view.layer.cornerRadius = 5.0f;
     self.view.layer.borderColor = [UIColor orangeColor].CGColor;
     self.view.layer.borderWidth = 2.0f;
-    
+    self.view.layer.cornerRadius = 10.0f;
 }
 
 - (void)didReceiveMemoryWarning {
