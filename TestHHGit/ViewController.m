@@ -22,14 +22,18 @@
     self.view.layer.borderColor = [UIColor orangeColor].CGColor;
     self.view.layer.borderWidth = 2.0f;
     self.view.layer.cornerRadius = 10.0f;
+    self.view.backgroundColor = [UIColor orangeColor];
     NSLog(@"test git stash for debug");
-    
+
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 80, 44);
     button.backgroundColor = [UIColor greenColor];
     [self.view addSubview:button];
     
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+    [button setTitle:@"测试stash" forState:UIControlStateNormal];
+    [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateSelected];
+    [button setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
