@@ -30,6 +30,7 @@
     
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
     [button setTitle:@"测试stash" forState:UIControlStateNormal];
+    [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateSelected];
 }
 
 - (void)didReceiveMemoryWarning {
