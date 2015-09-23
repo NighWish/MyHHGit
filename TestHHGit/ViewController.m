@@ -22,6 +22,7 @@
     self.view.layer.borderColor = [UIColor orangeColor].CGColor;
     self.view.layer.borderWidth = 2.0f;
     self.view.layer.cornerRadius = 10.0f;
+    self.view.backgroundColor = [UIColor orangeColor];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 80, 44);
