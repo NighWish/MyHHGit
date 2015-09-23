@@ -29,6 +29,7 @@
     [self.view addSubview:button];
     
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+    [button setTitle:@"测试stash" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
