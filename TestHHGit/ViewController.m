@@ -37,6 +37,7 @@
     NSLog(@"test feature branch");
     NSLog(@"test 多人合作");
     NSLog(@"fwfnfw飞文化佛");
+    NSLog(@"test git tags");
 }
 
 - (void)didReceiveMemoryWarning {
