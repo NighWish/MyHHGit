@@ -36,6 +36,7 @@
     [button setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
     NSLog(@"test feature branch");
     NSLog(@"test 多人合作");
+    NSLog(@"fwfnfw飞文化佛");
 }
 
 - (void)didReceiveMemoryWarning {
