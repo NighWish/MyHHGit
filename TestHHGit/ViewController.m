@@ -30,6 +30,7 @@
     [self.view addSubview:button];
     
     [button setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+    [button setTintColor:[UIColor redColor]];
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
     [button setTitle:@"测试stash" forState:UIControlStateNormal];
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateSelected];
@@ -37,6 +38,7 @@
     NSLog(@"test feature branch");
     NSLog(@"test 多人合作");
     NSLog(@"fsifeiihewi");
+    NSLog(@"fwfnfw飞文化佛");
 }
 
 - (void)didReceiveMemoryWarning {
