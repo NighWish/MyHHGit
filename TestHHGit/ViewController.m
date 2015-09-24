@@ -34,6 +34,7 @@
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateSelected];
     [button setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
     NSLog(@"test feature branch");
+    NSLog(@"test 多人合作");
 }
 
 - (void)didReceiveMemoryWarning {
