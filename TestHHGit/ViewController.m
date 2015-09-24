@@ -38,6 +38,7 @@
     NSLog(@"test 多人合作");
     NSLog(@"fwfnfw飞文化佛");
     NSLog(@"test git tags");
+    NSLog(@"test second tags for version10.0");
 }
 
 - (void)didReceiveMemoryWarning {
