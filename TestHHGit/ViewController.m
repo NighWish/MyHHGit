@@ -29,6 +29,7 @@
     button.backgroundColor = [UIColor greenColor];
     [self.view addSubview:button];
     
+    [button setTintColor:[UIColor redColor]];
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
     [button setTitle:@"测试stash" forState:UIControlStateNormal];
     [button setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateSelected];
